@@ -1,0 +1,8 @@
+1.insall homebrew
+2.run command "brew install git && brew install bash-completion"
+3.edit your .bash_profile, add like the code like down
+===========code==========
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+    . $(brew --prefix)/etc/bash_completion
+fi
+===========code end======
