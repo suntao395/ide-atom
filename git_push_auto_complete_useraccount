@@ -1,0 +1,14 @@
+cd ~
+vim .git-credentials
+edit this file like down
+    https://{username}:{password}@github.com
+esc
+:wq // 保存
+git config --global credential.helper store
+
+now restart the terminal you will see git commands can be auto completed
+
+view the .gitconfig
+you will find
+[credential]
+    helper = store
