@@ -1,0 +1,22 @@
+
+install oh-my-zsh
+    git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+    cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+
+now prepare you plugins
+add plugins in .zshrc
+
+git incr autojump
+
+autojump
+    brew install autojump
+
+incr
+    add file as ~/.oh-my-zsh/plugins/incr/incr.plugin.zsh
+    source code is here: http://mimosa-pudica.net/src/incr-0.2.zsh
+    just paste and save it.
+
+source ~/.zshrc or restart terminal
+
+then you will see j+directory and autocompletion of incr.
+
